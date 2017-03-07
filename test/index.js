@@ -8,7 +8,7 @@ describe('angular-download-attribute', function () {
   function noop() {
   }
 
-  beforeEach(module('angular-download-attribute'));
+  beforeEach(module('ngDownloadAttribute'));
 
   beforeEach(inject(function (_$window_) {
     var createElement = _$window_.document.createElement;

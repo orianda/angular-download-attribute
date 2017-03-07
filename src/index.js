@@ -1,4 +1,4 @@
-angular.module('angular-download-attribute', []).directive('download', [
+angular.module('ngDownloadAttribute', []).directive('download', [
   '$window',
   function ($window) {
     'use strict';

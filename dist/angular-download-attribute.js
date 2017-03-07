@@ -7,7 +7,7 @@
  * @author Orianda <orianda@paan.de>
  * @license MIT
  */
-angular.module('angular-download-attribute', []).directive('download', [
+angular.module('ngDownloadAttribute', []).directive('download', [
   '$window',
   function ($window) {
     'use strict';
@@ -23,7 +23,7 @@ angular.module('angular-download-attribute', []).directive('download', [
         /**
          * Leave, if element is not a link element
          */
-        if (!$element.is('a')) {
+        if ($element[0].nodeName !== 'A') {
           return;
         }
 
