@@ -5,6 +5,12 @@ AngularJS (v1) polyfill about the HTML5 download attribute for anchor elements.
 Covers the native HTML5 download attribute and supports download in case it is not supported in the browser natively. 
 
 This polyfill was especially made for Internet Explorer 10 and 11.
+
+## Install
+
+````
+bower install --save angular-download-attribute
+````
  
 ## Usage
  
