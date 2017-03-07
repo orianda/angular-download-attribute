@@ -1,0 +1,49 @@
+{
+  "name": "angular-download-attribute",
+  "version": "1.0.0",
+  "description": "AngularJS (v1) polyfill about the HTML5 download attribute for anchor elements.",
+  "homepage": "https://github.com/orianda/angular-download-attribute",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "gulp build",
+    "test": "echo 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orianda/angular-download-attribute.git"
+  },
+  "keywords": [
+    "html5",
+    "angular",
+    "polyfill",
+    "download",
+    "attribute"
+  ],
+  "author": "Orianda <orianda@paan.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orianda/angular-download-attribute/issues"
+  },
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-gzip": "^1.4.0",
+    "gulp-header": "^1.8.8",
+    "gulp-help": "^1.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1",
+    "jshint": "^2.9.4",
+    "run-sequence": "^1.2.2"
+  },
+  "devDependencies": {
+    "angular": "^1.6.2",
+    "angular-mocks": "^1.6.2",
+    "jasmine": "^2.5.3",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}

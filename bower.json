@@ -1,0 +1,27 @@
+{
+  "name": "angular-download-attribute",
+  "description": "AngularJS (v1) polyfill about the HTML5 download attribute for anchor elements.",
+  "main": "src/index.js",
+  "authors": [
+    "Orianda <orianda@paan.de>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "html5",
+    "angular",
+    "polyfill",
+    "download",
+    "attribute"
+  ],
+  "homepage": "https://github.com/orianda/angular-download-attribute",
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

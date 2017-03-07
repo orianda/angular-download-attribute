@@ -1,0 +1,7 @@
+{
+  "extends": "../.jshintrc",
+  "globals": {
+    "angular": false,
+    "Blob": false
+  }
+}
