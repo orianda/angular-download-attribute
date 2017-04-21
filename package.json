@@ -24,7 +24,10 @@
   "bugs": {
     "url": "https://github.com/orianda/angular-download-attribute/issues"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.6.2",
+    "angular-mocks": "^1.6.2",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
@@ -35,15 +38,11 @@
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^2.4.1",
     "gulp-uglify": "^2.0.1",
-    "jshint": "^2.9.4",
-    "run-sequence": "^1.2.2"
-  },
-  "devDependencies": {
-    "angular": "^1.6.2",
-    "angular-mocks": "^1.6.2",
     "jasmine": "^2.5.3",
+    "jshint": "^2.9.4",
     "karma": "^1.5.0",
     "karma-chrome-launcher": "^2.0.0",
-    "karma-jasmine": "^1.1.0"
+    "karma-jasmine": "^1.1.0",
+    "run-sequence": "^1.2.2"
   }
 }
