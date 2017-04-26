@@ -1,6 +1,6 @@
 {
   "name": "angular-download-attribute",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AngularJS (v1) polyfill about the HTML5 download attribute for anchor elements.",
   "homepage": "https://github.com/orianda/angular-download-attribute",
   "main": "src/index.js",
