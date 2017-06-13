@@ -19,7 +19,7 @@ bower install --save angular-download-attribute
 ```
 
 ```html
-<a href="data:text/plain;charset=UTF-8,hello world" download="greetings.txt">Download me</a>
+<a href="data:text/plain;charset=UTF-8,hello world" download="greetings.txt">Download the embedded file</a>
 ```
 
 In case the download attribute is supported natively, then this polyfill will not have any effect.
