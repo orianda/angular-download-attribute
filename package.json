@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "gulp build",
-    "test": "echo 0"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",

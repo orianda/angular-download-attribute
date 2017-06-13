@@ -8,17 +8,17 @@ This polyfill was especially made for Internet Explorer 10 and 11.
 
 ## Install
 
-````
+```bash
 bower install --save angular-download-attribute
-````
+```
  
 ## Usage
  
-```
+```html
 <a href="/link/to/file.txt" download="description.txt">Download the text file</a>
 ```
 
-```
+```html
 <a href="data:text/plain;charset=UTF-8,hello world" download="greetings.txt">Download me</a>
 ```
 
